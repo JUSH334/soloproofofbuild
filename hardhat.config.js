@@ -1,13 +1,16 @@
-﻿require("@nomicfoundation/hardhat-toolbox");
+require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
 module.exports = {
   solidity: "0.8.20",
   networks: {
     didlab: {
-      url: "https://eth.blockchain.didlab.org",
+      url: process.env.RPC_URL || "https://eth.didlab.org",
       chainId: 252501,
-      accounts: ["0xcde553ec19806847ac8794493da93fb6549b937b815609c499a5faa6309a4cc8"],
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      timeout: 120000,
+      gas: "auto",
+      gasPrice: 1000000000, // 1 gwei
     },
   },
 };

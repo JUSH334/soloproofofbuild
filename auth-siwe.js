@@ -4,7 +4,7 @@ const fs = require("fs");
 const https = require("https");
 
 const ADDR = "0xFB3C61Dcc2dF6800C62E7ba2bcA5e9dd7d42f2F7";
-  const PRIVKEY = [PRIVATE_KEY];
+const PRIVKEY = [PRIVATE_KEY];
 
 async function httpRequest(options, data = null) {
   return new Promise((resolve, reject) => {

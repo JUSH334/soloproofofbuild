@@ -25,7 +25,7 @@ This project demonstrates a complete NFT minting system on the DIDLab blockchain
 ## IPFS Content
 - **Metadata CID**: `QmSicWHrHvs33ybbUZS7H8hbTx4EEfSwhNGmyooJY2CCv2`
 - **Image CID**: `QmewS57gkw1k7jjmucdkY1XDS8exBXQy8N4QtFszP6VFq7`
-- **IPFS Gateway to PNG**: https://ipfs.io/ipfs/QmewS57gkw1k7jjmucdkY1XDS8exBXQy8N4QtFszP6VFq7
+- **IPFS Gateway to Badge.png**: https://ipfs.io/ipfs/QmewS57gkw1k7jjmucdkY1XDS8exBXQy8N4QtFszP6VFq7
 
 ## Reflection
 
